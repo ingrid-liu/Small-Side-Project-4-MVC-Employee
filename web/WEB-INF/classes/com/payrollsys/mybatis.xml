@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="db.properties"></properties>
+    <!--开启Log4j的日志打印,默认就是开启的，可以不配置-->
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+    <!--配置实体类的别名-->
+    <typeAliases>
+        <!--给某个实体类配置别名，在Mapper文件中使用别名即可表示对应的实体类，简化代码的编写-->
+        <!-- <typeAlias type="com.bjsxt.pojo.Emp" alias="emp"></typeAlias>-->
+        <package name="com.bjsxt.pojo"/><!--默认该包下的所有的类的类名即为别名，不区分大小写-->
+    </typeAliases>
+    <!--配置数据库环境，default的值为某个environment的id的值，表示当前使用的数据库环境-->
+    <environments default="mysql">
+        <!--表示一个具体的数据库环境，可以配置多个-->
+        <environment id="mysql">
+            <!--表明事务的管理仍然使用原生JDBC的方式-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--配置数据库的连接参数，使用数据库连接池技术-->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/sxtoa?serverTimezone=UTC"/>
+                <property name="username" value="root"/>
+                <property name="password" value="1234"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--配置Mapper文件的路径-->
+    <mappers>
+       <package name="com.bjsxt.mapper"/>
+    </mappers>
+</configuration>
