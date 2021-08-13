@@ -1,12 +1,12 @@
 ﻿@charset "utf-8";
 /* CSS Document */
 /***
- * uimaker
+ * CSS Doc required from unimaker.com (the tutorial provided)
  * http://www.uimaker.com
  * e-mail: admin@uimaker.com
  */
 *{font-size:9pt;border:0;margin:0;padding:0;}
-body{font-family:'微软雅黑'; margin:0 auto;min-width:980px;}
+body{font-family:'Arial'; margin:0 auto;min-width:980px;}
 ul{display:block;margin:0;padding:0;list-style:none;}
 li{display:block;margin:0;padding:0;list-style: none;}
 img{border:0;}
@@ -18,7 +18,6 @@ cite{font-style:normal;}
 h2{font-weight:normal;}
 
 /*cloud*/
-
 #mainBody {width:100%;height:100%;position:absolute;z-index:-1;}
 .cloud {position:absolute;top:0px;left:0px;width:100%;height:100%;background:url(../images/cloud.png) no-repeat;z-index:1;opacity:0.5;}
 #cloud2 {z-index:2;}
@@ -54,7 +53,10 @@ h2{font-weight:normal;}
 .loginbox2 ul li{margin-bottom:16px;}
 .loginbox3{background:url(../images/logininfo3.png) no-repeat;}
 .loginbox3 ul li{margin-bottom:16px;}
-.yzm{width:341px; height:46px; background:url(../images/yzmbg.png) no-repeat; padding-bottom:5px;}
+
+/*todo Question1: I want to modify the html naming and here, but I can't. Why?*/
+/*todo Question2: Modify the font size*/
+.yzm{width:341px; height:46px; background:url(../images/yzm.png) no-repeat; padding-bottom:5px;}
 .yzm span{display:block; float:left;width:227px; height:46px;}
 .yzm span input{background:none; border:none; width:183px; height:46px; line-height:46px;padding-left:44px;font-size:14px; color:#cee4f1;}
 .yzm cite{float:right; width:114px; height:46px; line-height:46px; font-size:18px; color:#fff; text-align:center;}
@@ -88,6 +90,8 @@ h2{font-weight:normal;}
 .topright ul{padding-top:15px; float:right; padding-right:12px;}
 .topright ul li{float:left; padding-left:9px; padding-right:9px; background:url(../images/line.gif) no-repeat right;}
 .topright ul li:last-child{background:none;}
+
+/*todo Question: why there is no change when I modify the font size?*/
 .topright ul li a{font-size:13px; color:#e9f2f7;}
 .topright ul li a:hover{color:#fff;}
 .topright ul li span{margin-top:2px;float:left;padding-right:3px;}
@@ -115,7 +119,8 @@ h2{font-weight:normal;}
 .title{cursor:pointer;}
 
 
-/**支持二级菜单覆盖样式**/
+/** todo Question: 支持二级菜单覆盖样式**/
+/*support the second menu covered style*/
 .menuson li .header{height:30px;}
 .menuson li .sub-menus{ display:none; background:#d9ebf3;padding:10px 0;border-bottom:1px solid #b7d5df;}
 .menuson li .sub-menus li{height:25px;line-height:25px;padding-left:48px;border-left:1px solid #d9ebf3;}

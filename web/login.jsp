@@ -36,6 +36,29 @@
 
             })
         })
+
+    // focus event for user input verification code
+        $(function () {
+            $("#userCode").blur(function () {
+                // get user input code
+                var userCode=$("#userCode").val();
+                // make an AJAX request
+                    if(userCode==null || userCode=="") {
+                        //remind the user that verification code can't be empty
+                        $("#messageSpan").html("Please input the verification code.").css("color", "red");
+                    }else{
+                        $.get("codeCheckServlet",{userCode:userCode}, function (date) {
+                            //"true"|"false"
+                            //eval() evaluates the expression
+                            if(!eval(data)){
+                                $("#messageSpan").html("The verification code is incorrect.").css("color", "red");
+                            }
+
+
+                        })
+                    }
+            })
+        })
     </script>
 
 </head>
@@ -62,23 +85,31 @@
 <div class="loginbody">
 
     <span class="systemlogo"></span>
+    <%-- Create the notice for invalid verification code input --%>
+    <div style="text-align: center">
+        <span id=""messageSpan></span>
+    </div>
+
 
     <div class="loginbox loginbox2">
+        <%-- get calling from the servlet --%>
+        <form action="userServlet" method="post">
 
-        <ul>
-            <li><input name="" type="text" class="loginuser" value="admin" onclick="JavaScript:this.value=''"/></li>
-            <li><input name="" type="text" class="loginpwd" value="password" onclick="JavaScript:this.value=''"/></li>
-            <li class="yzm">
-                <%--  loading the verification code: generate a dynamic verfication img (Servlet)--%>
-                <%--  click image->change veri code: browser will automatically generated new tag of the resource(so does url) --%>
-                <span><input name="" type="text" value="verification" onclick="JavaScript:this.value=''"/></span>
-                    <cite>
-                        <img id="codeImg" style="cursor:pointer" src="codeServlet" alt="" width="115px" height="46px">       <%--  call servlet to get the new code --%>
-                        <%-- in head use jquery to set the single click event; stype: use css to change cursor as a hand   --%>
-                    </cite>
-            </li>
-            <li><input name="" type="button" class="loginbtn" value="Login"  onclick="javascript:window.location='main.html'"  /><label><input name="" type="checkbox" value="" checked="checked" />Remember me</label><label><a href="#">Forget Password？</a></label></li>
-        </ul>
+            <ul>
+                <li><input name="empId" type="text" class="loginuser" value="admin" onclick="JavaScript:this.value=''"/></li>
+                <li><input name="password" type="password" class="loginpwd" value="password" onclick="JavaScript:this.value=''"/></li>
+                <li class="yzm">
+                    <%--  loading the verification code: generate a dynamic verfication img (Servlet)--%>
+                    <%--  click image->change veri code: browser will automatically generated new tag of the resource(so does url) --%>
+                    <span><input id="userCode" name="" type="text" value="verification" onclick="JavaScript:this.value=''"/></span>
+                        <cite>
+                            <img id="codeImg" style="cursor:pointer" src="codeServlet" alt="" width="115px" height="46px">       <%--  call servlet to get the new code --%>
+                            <%-- in head use jquery to set the single click event; stype: use css to change cursor as a hand   --%>
+                        </cite>
+                </li>
+                <li><input type="submit" class="loginbtn" value="Login" /><label><input name="" type="checkbox" value="" checked="checked" />Remember me</label><label><a href="#">Forget Password？</a></label></li>
+            </ul>
+        </form>
 
 
     </div>
