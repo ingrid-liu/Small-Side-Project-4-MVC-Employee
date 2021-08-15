@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.Random;
 
 /**
- * Loading the verification code: generate a dynamic verification img (Servlet) in login.jsp
+ * CodeServlet loads the VERIFICATION CODE and generates a dynamic verification img in login.jsp.
  * @author  'Ingrid' Xiaoying Liu & Ryan Mah
  * @version 1.0
  * @since   8/6/21
@@ -67,9 +67,8 @@ public class CodeServlet extends HttpServlet {
             g.setColor(new Color(20 + random.nextInt(110), 20 + random
                     .nextInt(110), 20 + random.nextInt(110)));
             // todo Question:
-            // The colors from the calling function are the same, maybe because the seeds are too close,
+            // The colors from the calling function are the same, maybe because the seeds are too closed,
             // so they can only be generated directly
-            // (调用函数出来的颜色相同，可能是因为种子太接近，所以只能直接生成)
             g.drawString(rand, 13 * i + 6, 16);
         }
 

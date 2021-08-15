@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : szsxt-208
+Source Server         : payroll
 Source Server Version : 50712
 Source Host           : localhost:3306
-Source Database       : oa
+Source Database       : sxt tutorial
 
 Target Server Type    : MYSQL
 Target Server Version : 50712
 File Encoding         : 65001
 
-Date: 2019-07-19 10:43:48
+Date: 2021-07-19 10:43:48
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -90,7 +90,7 @@ CREATE TABLE `employee` (
   `onduty` int(1) DEFAULT NULL COMMENT '0-��ְ  1-��ְ',
   `emptype` int(1) DEFAULT NULL COMMENT '1.��ͨԱ��  2.������Ա ��������ܼࡢ�ܲõ�  3.����Ա',
   `phone` char(11) DEFAULT NULL,
-  `qq` varchar(10) DEFAULT NULL,
+  `email` varchar(10) DEFAULT NULL,
   `emercontactperson` varchar(200) DEFAULT NULL,
   `idcard` char(18) DEFAULT NULL,
   PRIMARY KEY (`empid`),
