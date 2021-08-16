@@ -10,9 +10,9 @@ import java.io.IOException;
 public class LoginOutServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //销毁session
+        //invalidate the session
         req.getSession().invalidate();
-        //重定向
+        //redirect
         resp.sendRedirect(req.getContextPath()+"/login.jsp");
     }
 }

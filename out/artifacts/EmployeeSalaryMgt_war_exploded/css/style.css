@@ -12,7 +12,7 @@ li{display:block;margin:0;padding:0;list-style: none;}
 img{border:0;}
 dl,dt,dd,span{margin:0;padding:0;display:block;}
 a,a:focus{text-decoration:none;color:#000;outline:none;blr:expression(this.onFocus=this.blur());}
-a:hover{color:#00a4ac;text-decoration:none;}
+a:hover{color:#ffff;text-decoration:none;}
 table{border-collapse:collapse;border-spacing: 0;}
 cite{font-style:normal;}
 h2{font-weight:normal;}

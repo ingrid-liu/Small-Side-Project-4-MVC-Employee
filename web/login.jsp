@@ -16,11 +16,12 @@
     <script src="js/cloud.js" type="text/javascript"></script>
 
     <script type="text/javascript">
-        //to see the window's location, sett as ttop if isn't
+        //to see the window's location, set as top if isn't full web page
         if(window.top.location!=window.location){
             window.top.location.href=window.location.href;
         }
     </script>
+
     <script language="javascript">
         $(function(){
             $('.loginbox').css({'position':'absolute','left':($(window).width()-692)/2});

@@ -33,8 +33,9 @@ public class UserServlet extends HttpServlet {
             //store the user info to session
             req.getSession().setAttribute("emp", employee);
             //redirect to the main.jsp
-            //todo main.jsp
-            resp.sendRedirect(req.getContextPath()+"/main.jsp");
+//            resp.sendRedirect(req.getContextPath()+"/main.jsp");
+            resp.sendRedirect("http://localhost:8080/EmployeeSalaryMgt/main.jsp");
+
         }else{
             //Store the prompt in the request scope
             req.setAttribute("flag","UserID or Password is incorrect");

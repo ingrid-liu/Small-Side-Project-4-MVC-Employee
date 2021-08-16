@@ -11,17 +11,17 @@ import java.io.IOException;
 public class CodeCheckServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //设置请求编码格式
+        //Set the request encoding format
             req.setCharacterEncoding("utf-8");
-        //设置响应编码格式
+        //Set response encoding format
             resp.setContentType("text/html;charset=utf-8");
             resp.setCharacterEncoding("utf-8");
-        //获取请求信息
+        //Get request information
             String userCode=req.getParameter("userCode");
-        //处理请求
-            //获取session中存储系统验证码
+        //Processing request
+            //Get the verification code from the session
             String sysCode= (String) req.getSession().getAttribute("randStr");
-        //响应结果
+        //response the result
             resp.getWriter().write(sysCode.equals(userCode)+"");
     }
 }
