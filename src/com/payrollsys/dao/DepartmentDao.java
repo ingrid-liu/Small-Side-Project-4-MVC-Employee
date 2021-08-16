@@ -1,8 +1,8 @@
-package com.bjsxt.dao;
+package com.payrollsys.dao;
 
 import java.util.List;
 
-import com.bjsxt.entity.Department;
+import com.payrollsys.entity.Department;
 
 public interface DepartmentDao {
 	/**

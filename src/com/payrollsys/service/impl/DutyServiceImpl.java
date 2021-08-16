@@ -1,14 +1,14 @@
-package com.bjsxt.service.impl;
+package com.payrollsys.service.impl;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-import com.bjsxt.dao.DutyDao;
-import com.bjsxt.dao.impl.DutyDaoImpl;
-import com.bjsxt.entity.Duty;
-import com.bjsxt.service.DutyService;
+import com.payrollsys.dao.DutyDao;
+import com.payrollsys.dao.impl.DutyDaoImpl;
+import com.payrollsys.entity.Duty;
+import com.payrollsys.service.DutyService;
 
 public class DutyServiceImpl implements DutyService {
 	

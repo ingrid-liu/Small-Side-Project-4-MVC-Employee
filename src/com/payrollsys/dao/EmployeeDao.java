@@ -1,10 +1,10 @@
-package com.bjsxt.dao;
+package com.payrollsys.dao;
 
 import java.io.IOException;
 import java.util.Date;
 import java.util.List;
 
-import com.bjsxt.entity.Employee;
+import com.payrollsys.entity.Employee;
 
 public interface EmployeeDao {
 	/**

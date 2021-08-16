@@ -1,8 +1,8 @@
-package com.bjsxt.dao.impl;
+package com.payrollsys.dao.impl;
 
-import com.bjsxt.dao.ExpenseItemDao;
-import com.bjsxt.entity.ExpenseItem;
-import com.bjsxt.util.DBUtil2;
+import com.payrollsys.dao.ExpenseItemDao;
+import com.payrollsys.entity.ExpenseItem;
+import com.payrollsys.util.DBUtil2;
 
 public class ExpenseItemDaoImpl implements ExpenseItemDao {
 

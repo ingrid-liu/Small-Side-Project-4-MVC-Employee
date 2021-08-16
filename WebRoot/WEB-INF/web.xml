@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>sxtoa</display-name>
+  <servlet>
+    <servlet-name>DepartmentServlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.DepartmentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.EmployeeServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <servlet-name>RandomServlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.RandomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DutyServlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.DutyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExpenseServlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.ExpenseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InOutServlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.InOutServlet</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DepartmentServlet</servlet-name>
+    <url-pattern>/servlet/DepartmentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <url-pattern>/servlet/EmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RandomServlet</servlet-name>
+    <url-pattern>/random.jpg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DutyServlet</servlet-name>
+    <url-pattern>/servlet/DutyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExpenseServlet</servlet-name>
+    <url-pattern>/servlet/ExpenseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InOutServlet</servlet-name>
+    <url-pattern>/servlet/InOutServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

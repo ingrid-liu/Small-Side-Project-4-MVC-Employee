@@ -1,4 +1,4 @@
-package com.bjsxt.dao.impl;
+package com.payrollsys.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bjsxt.dao.IncomeDao;
-import com.bjsxt.entity.Department;
-import com.bjsxt.util.DBUtil;
+import com.payrollsys.dao.IncomeDao;
+import com.payrollsys.entity.Department;
+import com.payrollsys.util.DBUtil;
 
 public class IncomDaoImpl implements IncomeDao {
 

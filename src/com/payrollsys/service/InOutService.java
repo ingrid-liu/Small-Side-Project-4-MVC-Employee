@@ -1,4 +1,4 @@
-package com.bjsxt.service;
+package com.payrollsys.service;
 
 public interface InOutService {
 	/**

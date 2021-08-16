@@ -1,4 +1,4 @@
-package com.bjsxt.servlet;
+package com.payrollsys.servlet;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -9,13 +9,14 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.bjsxt.entity.Auditing;
-import com.bjsxt.entity.Employee;
-import com.bjsxt.entity.Expense;
-import com.bjsxt.entity.ExpenseItem;
-import com.bjsxt.service.ExpenseService;
-import com.bjsxt.service.impl.ExpenseServiceImpl;
-import com.bjsxt.util.MyException;
+import com.payrollsys.entity.Auditing;
+import com.payrollsys.entity.Employee;
+import com.payrollsys.entity.Expense;
+import com.payrollsys.entity.ExpenseItem;
+import com.payrollsys.service.ExpenseService;
+import com.payrollsys.service.impl.ExpenseServiceImpl;
+import com.payrollsys.util.MyException;
+
 
 public class ExpenseServlet extends BaseServlet {
 	

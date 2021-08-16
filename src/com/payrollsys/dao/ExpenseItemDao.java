@@ -1,6 +1,6 @@
-package com.bjsxt.dao;
+package com.payrollsys.dao;
 
-import com.bjsxt.entity.ExpenseItem;
+import com.payrollsys.entity.ExpenseItem;
 
 public interface ExpenseItemDao {
 	/**

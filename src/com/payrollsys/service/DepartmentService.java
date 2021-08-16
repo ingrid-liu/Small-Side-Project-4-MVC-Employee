@@ -1,8 +1,8 @@
-package com.bjsxt.service;
+package com.payrollsys.service;
 
 import java.util.List;
 
-import com.bjsxt.entity.Department;
+import com.payrollsys.entity.Department;
 
 public interface DepartmentService {
 	/**

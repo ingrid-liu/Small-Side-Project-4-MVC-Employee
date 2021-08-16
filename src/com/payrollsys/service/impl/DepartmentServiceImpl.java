@@ -1,11 +1,11 @@
-package com.bjsxt.service.impl;
+package com.payrollsys.service.impl;
 
 import java.util.List;
 
-import com.bjsxt.dao.DepartmentDao;
-import com.bjsxt.dao.impl.DepartmentDaoImpl;
-import com.bjsxt.entity.Department;
-import com.bjsxt.service.DepartmentService;
+import com.payrollsys.dao.DepartmentDao;
+import com.payrollsys.dao.impl.DepartmentDaoImpl;
+import com.payrollsys.entity.Department;
+import com.payrollsys.service.DepartmentService;
 
 public class DepartmentServiceImpl implements DepartmentService{
 

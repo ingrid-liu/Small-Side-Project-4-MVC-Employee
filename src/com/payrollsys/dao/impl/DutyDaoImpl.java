@@ -1,4 +1,4 @@
-package com.bjsxt.dao.impl;
+package com.payrollsys.dao.impl;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -10,11 +10,11 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bjsxt.dao.DutyDao;
-import com.bjsxt.entity.Department;
-import com.bjsxt.entity.Duty;
-import com.bjsxt.entity.Employee;
-import com.bjsxt.util.DBUtil;
+import com.payrollsys.dao.DutyDao;
+import com.payrollsys.entity.Department;
+import com.payrollsys.entity.Duty;
+import com.payrollsys.entity.Employee;
+import com.payrollsys.util.DBUtil;
 
 public class DutyDaoImpl implements DutyDao {
 

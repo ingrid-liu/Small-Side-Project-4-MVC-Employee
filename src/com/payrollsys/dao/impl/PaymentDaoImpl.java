@@ -1,4 +1,4 @@
-package com.bjsxt.dao.impl;
+package com.payrollsys.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,11 +7,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bjsxt.dao.PaymentDao;
-import com.bjsxt.entity.Payment;
-import com.bjsxt.util.DBUtil;
-import com.bjsxt.util.DBUtil2;
-import com.bjsxt.util.DateUtil;
+import com.payrollsys.dao.PaymentDao;
+import com.payrollsys.entity.Payment;
+import com.payrollsys.util.DBUtil;
+import com.payrollsys.util.DBUtil2;
+import com.payrollsys.util.DateUtil;
 
 public class PaymentDaoImpl implements PaymentDao {
 

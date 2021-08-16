@@ -1,26 +1,26 @@
-package com.bjsxt.service.impl;
+package com.payrollsys.service.impl;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Date;
 import java.util.List;
 
-import com.bjsxt.dao.AuditingDao;
-import com.bjsxt.dao.ExpenseDao;
-import com.bjsxt.dao.ExpenseItemDao;
-import com.bjsxt.dao.PaymentDao;
-import com.bjsxt.dao.impl.AuditingDaoImpl;
-import com.bjsxt.dao.impl.ExpenseDaoImpl;
-import com.bjsxt.dao.impl.ExpenseItemDaoImpl;
-import com.bjsxt.dao.impl.PaymentDaoImpl;
-import com.bjsxt.entity.Auditing;
-import com.bjsxt.entity.Expense;
-import com.bjsxt.entity.ExpenseItem;
-import com.bjsxt.entity.Payment;
-import com.bjsxt.service.ExpenseService;
-import com.bjsxt.util.Constants;
-import com.bjsxt.util.DBUtil2;
-import com.bjsxt.util.MyException;
+import com.payrollsys.dao.AuditingDao;
+import com.payrollsys.dao.ExpenseDao;
+import com.payrollsys.dao.ExpenseItemDao;
+import com.payrollsys.dao.PaymentDao;
+import com.payrollsys.dao.impl.AuditingDaoImpl;
+import com.payrollsys.dao.impl.ExpenseDaoImpl;
+import com.payrollsys.dao.impl.ExpenseItemDaoImpl;
+import com.payrollsys.dao.impl.PaymentDaoImpl;
+import com.payrollsys.entity.Auditing;
+import com.payrollsys.entity.Expense;
+import com.payrollsys.entity.ExpenseItem;
+import com.payrollsys.entity.Payment;
+import com.payrollsys.service.ExpenseService;
+import com.payrollsys.util.Constants;
+import com.payrollsys.util.DBUtil2;
+import com.payrollsys.util.MyException;
 
 public class ExpenseServiceImpl implements ExpenseService{
 	@Override

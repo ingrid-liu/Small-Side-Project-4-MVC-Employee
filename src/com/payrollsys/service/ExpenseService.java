@@ -1,9 +1,9 @@
-package com.bjsxt.service;
+package com.payrollsys.service;
 
 import java.util.List;
 
-import com.bjsxt.entity.Auditing;
-import com.bjsxt.entity.Expense;
+import com.payrollsys.entity.Auditing;
+import com.payrollsys.entity.Expense;
 
 public interface ExpenseService {
 

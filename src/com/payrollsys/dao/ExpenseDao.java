@@ -1,8 +1,8 @@
-package com.bjsxt.dao;
+package com.payrollsys.dao;
 
 import java.util.List;
 
-import com.bjsxt.entity.Expense;
+import com.payrollsys.entity.Expense;
 
 public interface ExpenseDao {
 	/**

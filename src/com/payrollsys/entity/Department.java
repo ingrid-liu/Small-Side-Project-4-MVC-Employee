@@ -1,4 +1,4 @@
-package com.bjsxt.entity;
+package com.payrollsys.entity;
 
 import java.io.Serializable;
 /**

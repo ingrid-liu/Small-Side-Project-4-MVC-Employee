@@ -1,4 +1,4 @@
-package com.bjsxt.entity;
+package com.payrollsys.entity;
 
 import java.util.ArrayList;
 import java.util.Date;

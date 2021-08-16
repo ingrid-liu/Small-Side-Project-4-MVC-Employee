@@ -1,4 +1,4 @@
-package com.bjsxt.entity;
+package com.payrollsys.entity;
 /**
  * 报销单明细
  * @author Administrator

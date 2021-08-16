@@ -1,12 +1,12 @@
-package com.bjsxt.service.impl;
+package com.payrollsys.service.impl;
 
 import java.util.Date;
 import java.util.List;
 
-import com.bjsxt.dao.EmployeeDao;
-import com.bjsxt.dao.impl.EmployeeDaoImpl;
-import com.bjsxt.entity.Employee;
-import com.bjsxt.service.EmployeeService;
+import com.payrollsys.dao.EmployeeDao;
+import com.payrollsys.dao.impl.EmployeeDaoImpl;
+import com.payrollsys.entity.Employee;
+import com.payrollsys.service.EmployeeService;
 
 public class EmployeeServiceImpl implements EmployeeService{
 	

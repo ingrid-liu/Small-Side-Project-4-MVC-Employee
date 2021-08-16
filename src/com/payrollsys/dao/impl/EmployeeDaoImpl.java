@@ -1,4 +1,4 @@
-package com.bjsxt.dao.impl;
+package com.payrollsys.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,11 +10,11 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.bjsxt.dao.EmployeeDao;
-import com.bjsxt.entity.Department;
-import com.bjsxt.entity.Employee;
-import com.bjsxt.entity.Position;
-import com.bjsxt.util.DBUtil;
+import com.payrollsys.dao.EmployeeDao;
+import com.payrollsys.entity.Department;
+import com.payrollsys.entity.Employee;
+import com.payrollsys.entity.Position;
+import com.payrollsys.util.DBUtil;
 
 public class EmployeeDaoImpl  implements EmployeeDao {
 	@Override

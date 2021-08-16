@@ -1,4 +1,4 @@
-package com.bjsxt.entity;
+package com.payrollsys.entity;
 /**
  * 岗位
  * @author Administrator

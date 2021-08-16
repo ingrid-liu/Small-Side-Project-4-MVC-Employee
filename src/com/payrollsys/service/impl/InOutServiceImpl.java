@@ -1,12 +1,12 @@
-package com.bjsxt.service.impl;
+package com.payrollsys.service.impl;
 
 import java.util.List;
 
-import com.bjsxt.dao.IncomeDao;
-import com.bjsxt.dao.PaymentDao;
-import com.bjsxt.dao.impl.IncomDaoImpl;
-import com.bjsxt.dao.impl.PaymentDaoImpl;
-import com.bjsxt.service.InOutService;
+import com.payrollsys.dao.IncomeDao;
+import com.payrollsys.dao.PaymentDao;
+import com.payrollsys.dao.impl.IncomDaoImpl;
+import com.payrollsys.dao.impl.PaymentDaoImpl;
+import com.payrollsys.service.InOutService;
 
 public class InOutServiceImpl implements InOutService {
 

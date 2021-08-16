@@ -1,6 +1,5 @@
-package com.bjsxt.servlet;
+package com.payrollsys.servlet;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintWriter;
@@ -17,15 +16,17 @@ import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.util.CellRangeAddress;
 
-import com.bjsxt.entity.Department;
-import com.bjsxt.entity.Duty;
-import com.bjsxt.entity.Employee;
-import com.bjsxt.service.DepartmentService;
-import com.bjsxt.service.DutyService;
-import com.bjsxt.service.impl.DepartmentServiceImpl;
-import com.bjsxt.service.impl.DutyServiceImpl;
+import com.payrollsys.entity.Department;
+import com.payrollsys.entity.Duty;
+import com.payrollsys.entity.Employee;
+import com.payrollsys.service.DepartmentService;
+import com.payrollsys.service.DutyService;
+import com.payrollsys.service.impl.DepartmentServiceImpl;
+import com.payrollsys.service.impl.DutyServiceImpl;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
+
 
 public class DutyServlet extends BaseServlet {
 	

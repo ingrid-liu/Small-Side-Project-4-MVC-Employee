@@ -1,4 +1,4 @@
-package com.bjsxt.dao.impl;
+package com.payrollsys.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,9 +8,10 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.bjsxt.dao.DepartmentDao;
-import com.bjsxt.entity.Department;
-import com.bjsxt.util.DBUtil;
+import com.payrollsys.dao.DepartmentDao;
+import com.payrollsys.entity.Department;
+import com.payrollsys.util.DBUtil;
+
 
 public class DepartmentDaoImpl implements DepartmentDao{
 

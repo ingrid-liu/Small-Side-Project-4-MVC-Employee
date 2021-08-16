@@ -1,4 +1,4 @@
-package com.bjsxt.servlet;
+package com.payrollsys.servlet;
 
 import java.io.IOException;
 
@@ -6,8 +6,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.bjsxt.service.InOutService;
-import com.bjsxt.service.impl.InOutServiceImpl;
+import com.payrollsys.service.InOutService;
+import com.payrollsys.service.impl.InOutServiceImpl;
+
 
 public class InOutServlet extends BaseServlet {
 

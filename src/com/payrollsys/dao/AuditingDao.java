@@ -1,6 +1,6 @@
-package com.bjsxt.dao;
+package com.payrollsys.dao;
 
-import com.bjsxt.entity.Auditing;
+import com.payrollsys.entity.Auditing;
 
 public interface AuditingDao {
 	/**

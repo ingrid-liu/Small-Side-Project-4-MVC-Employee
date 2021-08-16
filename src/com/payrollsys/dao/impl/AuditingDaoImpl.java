@@ -1,8 +1,8 @@
-package com.bjsxt.dao.impl;
+package com.payrollsys.dao.impl;
 
-import com.bjsxt.dao.AuditingDao;
-import com.bjsxt.entity.Auditing;
-import com.bjsxt.util.DBUtil2;
+import com.payrollsys.dao.AuditingDao;
+import com.payrollsys.entity.Auditing;
+import com.payrollsys.util.DBUtil2;
 
 public class AuditingDaoImpl implements AuditingDao{
 

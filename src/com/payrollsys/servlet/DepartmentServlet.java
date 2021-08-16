@@ -1,4 +1,4 @@
-package com.bjsxt.servlet;
+package com.payrollsys.servlet;
 
 import java.io.IOException;
 import java.util.List;
@@ -7,9 +7,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.bjsxt.entity.Department;
-import com.bjsxt.service.DepartmentService;
-import com.bjsxt.service.impl.DepartmentServiceImpl;
+import com.payrollsys.entity.Department;
+import com.payrollsys.service.DepartmentService;
+import com.payrollsys.service.impl.DepartmentServiceImpl;
 
 public class DepartmentServlet extends BaseServlet {
 	

@@ -1,9 +1,9 @@
-package com.bjsxt.service;
+package com.payrollsys.service;
 
 import java.sql.Date;
 import java.util.List;
 
-import com.bjsxt.entity.Duty;
+import com.payrollsys.entity.Duty;
 
 public interface DutyService {
 	/**

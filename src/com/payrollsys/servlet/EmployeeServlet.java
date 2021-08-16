@@ -1,4 +1,4 @@
-package com.bjsxt.servlet;
+package com.payrollsys.servlet;
 
 import java.io.IOException;
 import java.text.DateFormat;
@@ -11,13 +11,15 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.bjsxt.entity.Department;
-import com.bjsxt.entity.Employee;
-import com.bjsxt.entity.Position;
-import com.bjsxt.service.DepartmentService;
-import com.bjsxt.service.EmployeeService;
-import com.bjsxt.service.impl.DepartmentServiceImpl;
-import com.bjsxt.service.impl.EmployeeServiceImpl;
+import com.payrollsys.entity.Department;
+import com.payrollsys.entity.Employee;
+import com.payrollsys.entity.Position;
+import com.payrollsys.service.DepartmentService;
+import com.payrollsys.service.EmployeeService;
+import com.payrollsys.service.impl.DepartmentServiceImpl;
+import com.payrollsys.service.impl.EmployeeServiceImpl;
+
+
 
 public class EmployeeServlet extends BaseServlet {
 	/**
