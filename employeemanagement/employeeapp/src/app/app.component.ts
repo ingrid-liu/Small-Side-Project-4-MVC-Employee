@@ -9,7 +9,7 @@ import { EmployeeService } from './employee.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  public employees: Employee[];
+  public employees!: Employee[];
 
   constructor(private employeeService: EmployeeService) { }
 
@@ -21,6 +21,7 @@ export class AppComponent implements OnInit {
     this.employeeService.getEmployees().subscribe(
       (response: Employee[]) => {
         this.employees = response;
+        console.log(this.employees);
       },
       (error: HttpErrorResponse) => {
         alert(error.message);
