@@ -1,0 +1,31 @@
+    {
+        "email": "martin@summer.com",
+        "imageUrl": "https://www.bootdey.com/img/Content/avatar/avatar5.png",
+        "jobTitle": "Data Scientist",
+        "name": "Martin Ye",
+        "phone": "713-123-123"
+    }
+
+    {
+        "email": "daniel@summer.com",
+        "imageUrl": "https://www.bootdey.com/img/Content/avatar/avatar2.png",
+        "jobTitle": "Tech Lead",
+        "name": "Daniel Q",
+        "phone": "408-456-456"
+    }
+
+    {
+        "email": "ryan@summer.com",
+        "imageUrl": "https://www.bootdey.com/img/Content/avatar/avatar4.png",
+        "jobTitle": "Backend Developer",
+        "name": "Ryan M",
+        "phone": "619-789-789"
+    }
+
+    {
+        "email": "ingrid@summer.com",
+        "imageUrl": "https://www.bootdey.com/img/Content/avatar/avatar3.png",
+        "jobTitle": "Frontend Developer",
+        "name": "Ingrid L",
+        "phone": "415-789-789"
+    }

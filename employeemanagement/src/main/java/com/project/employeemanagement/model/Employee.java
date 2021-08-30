@@ -13,19 +13,19 @@ public class Employee implements Serializable {
     private String email;
     private String jobTitle;
     private String phone;
-    private String imagUrl;         //can be File also if needed;
+    private String imageUrl;         //can be File also if needed;
     @Column(nullable = false, updatable = false)
     private String employeeCode;    //random code
 
     public Employee() {
     }
 
-    public Employee(String name, String email, String jobTitle, String phone, String imagUrl, String employeeCode) {
+    public Employee(String name, String email, String jobTitle, String phone, String imageUrl, String employeeCode) {
         this.name = name;
         this.email = email;
         this.jobTitle = jobTitle;
         this.phone = phone;
-        this.imagUrl = imagUrl;
+        this.imageUrl = imageUrl;
         this.employeeCode = employeeCode;
     }
 
@@ -69,12 +69,12 @@ public class Employee implements Serializable {
         this.phone = phone;
     }
 
-    public String getImagUrl() {
-        return imagUrl;
+    public String getImageUrl() {
+        return imageUrl;
     }
 
-    public void setImagUrl(String imagUrl) {
-        this.imagUrl = imagUrl;
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
     public String getEmployeeCode() {
@@ -93,7 +93,7 @@ public class Employee implements Serializable {
                 ", email='" + email + '\'' +
                 ", jobTitle='" + jobTitle + '\'' +
                 ", phone='" + phone + '\'' +
-                ", imagUrl='" + imagUrl + '\'' +
+                ", imageUrl='" + imageUrl + '\'' +
                 ", employeeCode='" + employeeCode + '\'' +
                 '}';
     }
