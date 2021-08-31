@@ -2,7 +2,7 @@
 
 This is a simple Spring Boot full stack project with Angular to build front end app, including functionality like add, delete, search(with Ajax and an in-time feedback), and update, etc.
 
-<img src = "screenshots/employeeMgt.gif" width="450" >
+<img src = "screenshots/employeeMgt.gif" width="650" >
 
 
 This project is a perfect practice to dive into full-stack application as a junior developer. 
