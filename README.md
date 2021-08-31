@@ -39,7 +39,7 @@ I use JDK 16 & Spring boot2.6.0 for my own project, which is slightly different 
 And there are several tiny modifications on the TS syntax. Feel free to check my code while you are playing around.
 
 
-Welcome to message me if you met any prob while trying this project. I will try my best to answer your questions.
+Welcome to message me if you met any prob while cloning this project. I will try my best to answer your questions.
 
 
 <b>My email: </b>
