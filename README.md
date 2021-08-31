@@ -22,12 +22,14 @@ git clone https://github.com/summeringrid/Small-Side-Project-4-MVC-Employee.git
 ```
 
 <img src = "screenshots/employeeMgt.gif" width="650" >
-If you are not familiar with database or Spring Data JPA, I highly recommend you to learn this 1.5hr tutorial before you start this small project. Here is the pre-knowledge tutorial link:<br>
+If you are not familiar with database or Spring Data JPA, I highly recommend you to learn this 1.5hr tutorial before you start this small project. Here is the pre-knowledge tutorial link:
+
 ```bash
 https://www.youtube.com/watch?v=9SGDpanrc8U&t=2759s&ab_channel=Amigoscode
 ```
+
 <br>
-You will learn how to set up a database (PostgreSQL) and how to deploy JPA through Spring framework in the tutorial. Here is the tutorial for this project (2.5hr):<br>
+You will learn how to set up a database (PostgreSQL) and how to deploy JPA through Spring framework in the tutorial. Here is the tutorial for this project (2.5hr):
 ```bash
 https://www.youtube.com/watch?v=Gx4iBLKLVHk&ab_channel=Amigoscode
 ```
