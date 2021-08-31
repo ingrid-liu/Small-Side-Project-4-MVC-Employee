@@ -26,7 +26,7 @@ You will learn how to set up a database (PostgreSQL) and how to deploy JPA throu
 
 Here is the tutorial for this project (2.5hr): https://www.youtube.com/watch?v=Gx4iBLKLVHk&ab_channel=Amigoscode
 I use JDK 16 & Spring boot2.6.0 for my own project, which is slightly different from the tutorial. 
-And there are several tiny modifications on the TS syntax. Feel free to check my code while you are doing it.
+And there are several tiny modifications on the TS syntax. Feel free to check my code while you are playing around.
 
 Welcome to message me if you met any prob while trying this project. I will try my best to answer your questions.
 My email: ingridliu524@gmail.com
