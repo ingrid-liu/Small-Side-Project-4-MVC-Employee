@@ -94,32 +94,33 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form>
+                <form #editForm="ngForm">
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" name="name" class="form-control" id="name" class="form-control" placeholder="Name" required>
+                        <input type="text" ngModel="{{editEmployee?.name}}" name="name" class="form-control" id="name" class="form-control" placeholder="Name" required>
                     </div>
-                    <input type="hidden" name="id" class="form-contrl" id="name" placeholder="Email">
-                    <input type="hidden" name="userCode" class="form-contrl" id="userCode" placeholder="Email">
+                    <input type="hidden" ngModel="{{editEmployee?.id}}" name="id" class="form-contrl" id="name" placeholder="Email">
+                    <input type="hidden" ngModel="{{editEmployee?.employeeCode}}" name="userCode" class="form-contrl" id="userCode" placeholder="Email">
                     <div class="form-group">
                         <label for="email">Email Address</label>
-                        <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+                        <input type="email" ngModel="{{editEmployee?.email}}"name="email" class="form-control" id="email" placeholder="Email">
                     </div>
                     <div class="form-group">
                         <label for="jobTitle">Job Title</label>
-                        <input type="text" name="jobTitle" class="form-control" id="jobTitle" placeholder="Job Title">
+                        <input type="text" ngModel="{{editEmployee?.jobTitle}}" name="jobTitle" class="form-control" id="jobTitle" placeholder="Job Title">
                     </div>
                     <div class="form-group">
                         <label for="phone">Phone</label>
-                        <input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone">
+                        <input type="phone" ngModel="{{editEmployee?.phone}}" name="phone" class="form-control" id="phone" placeholder="Phone">
                     </div>
                     <div class="form-group">
                         <label for="imageUrl">Image URL</label>
-                        <input type="text" ngModel name="imageUrl" class="form-control" id="imageUrl" placeholder="Image URL">
+                        <input type="text" ngModel="{{editEmployee?.imageUrl}}" name="imageUrl" class="form-control" id="imageUrl" placeholder="Image URL">
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" id="add-employee-form" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button (click)="onUpdateEmployee(editForm.value)" data-dismiss="modal" class="btn btn-primary">Save changes</button>
+                        
                     </div>
                 </form>
             </div>
