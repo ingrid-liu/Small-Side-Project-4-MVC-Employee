@@ -16,7 +16,9 @@ It covers:
 
 
 Get the resource code:
-- git clone https://github.com/summeringrid/Small-Side-Project-4-MVC-Employee.git
+```bash
+git clone https://github.com/summeringrid/Small-Side-Project-4-MVC-Employee.git
+```
 
 
 If you are not familiar with database or Spring Data JPA, I highly recommend you to learn this 1.5hr tutorial before you start this small project.
@@ -29,7 +31,9 @@ I use JDK 16 & Spring boot2.6.0 for my own project, which is slightly different 
 And there are several tiny modifications on the TS syntax. Feel free to check my code while you are playing around.
 
 Welcome to message me if you met any prob while trying this project. I will try my best to answer your questions.
-My email: ingridliu524@gmail.com
+####My email: 
+ingridliu524@gmail.com
 
-Happy coding! Have fun!👾
+
+####Happy coding! Have fun!👾
 
