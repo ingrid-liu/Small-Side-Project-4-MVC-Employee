@@ -28,20 +28,23 @@ If you are not familiar with database or Spring Data JPA, I highly recommend you
 https://www.youtube.com/watch?v=9SGDpanrc8U&t=2759s&ab_channel=Amigoscode
 ```
 
-<br>
+
 You will learn how to set up a database (PostgreSQL) and how to deploy JPA through Spring framework in the tutorial. Here is the tutorial for this project (2.5hr):
 ```bash
 https://www.youtube.com/watch?v=Gx4iBLKLVHk&ab_channel=Amigoscode
 ```
-<br>
+
+
 I use JDK 16 & Spring boot2.6.0 for my own project, which is slightly different from the tutorial. 
 And there are several tiny modifications on the TS syntax. Feel free to check my code while you are playing around.
-<br>
+
+
 Welcome to message me if you met any prob while trying this project. I will try my best to answer your questions.
 
-<br>
+
 <b>My email: </b>
 ingridliu524@gmail.com
-<br>
+
+
 Happy coding! Have fun!👾
 
