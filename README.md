@@ -1,8 +1,8 @@
 # 👔 Employee Management 👨‍💻‍
 
 This is a simple Spring Boot full stack project with Angular to build front end app, including functionality like add, delete, search(with Ajax and an in-time feedback), and update, etc.
+![screen shot](https://github.com/summeringrid/Small-Side-Project-4-MVC-Employee/blob/master/screenshots/employeeManagement.png)
 
-<img src = "screenshots/employeeMgt.gif" width="650" >
 
 
 This project is a perfect practice to dive into full-stack application as a junior developer. 
@@ -20,7 +20,7 @@ Get the resource code:
 git clone https://github.com/summeringrid/Small-Side-Project-4-MVC-Employee.git
 ```
 
-
+<img src = "screenshots/employeeMgt.gif" width="650" >
 If you are not familiar with database or Spring Data JPA, I highly recommend you to learn this 1.5hr tutorial before you start this small project.
 Here is the pre-knowledge tutorial link:
 https://www.youtube.com/watch?v=9SGDpanrc8U&t=2759s&ab_channel=Amigoscode
@@ -31,9 +31,9 @@ I use JDK 16 & Spring boot2.6.0 for my own project, which is slightly different 
 And there are several tiny modifications on the TS syntax. Feel free to check my code while you are playing around.
 
 Welcome to message me if you met any prob while trying this project. I will try my best to answer your questions.
-####My email: 
+<br><b>My email: </b>
 ingridliu524@gmail.com
 
 
-####Happy coding! Have fun!👾
+Happy coding! Have fun!👾
 
