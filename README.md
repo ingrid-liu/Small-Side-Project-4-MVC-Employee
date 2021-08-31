@@ -1,16 +1,21 @@
 # 👔 Employee Management 👨‍💻‍
 
-This simple spring boot java application is the perfect way to practice as your first full-stack project!
+This is a simple Spring Boot full stack project with Angular to build front end app, including functionality like add, delete, search(with Ajax and an in-time feedback), and update, etc.
 
-<img src = "screenshots/employeeManagement.png" width="450" >
+<img src = "screenshots/employeeMgt.gif" width="450" >
+
+
+This project is a perfect practice to dive into full-stack application as a junior developer. 
+It covers:
+- Build your own API along with an Angular application that uses and consumes the API.
+- Use Spring Boot framework and MySQL database to implement Spring Data JPA.
+- Create a spring boot API, expose API Endpoints Over HTTP, and handle HTTP Requests through API Endpoints. 
+- Test API Endpoints by using an HTTP client and the browser DevTools.
+- Practice the basic concepts of Angular components, Angular Forms, Angular Routing, and Angular Services. 
+- Implement Angular HTTP Communication.
 
 
 Get the resource code:
 - git clone https://github.com/summeringrid/Small-Side-Project-4-MVC-Employee.git
 
-<img src = "screenshots/employeeMgt.gif" width="450" >
 
-
-
-
-![](image/Sugar%20Fighting3.png)
