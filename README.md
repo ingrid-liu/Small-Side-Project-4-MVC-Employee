@@ -24,5 +24,5 @@ git clone https://github.com/summeringrid/Small-Side-Project-4-MVC-Employee.git
 
 <img src = "screenshots/employeeMgt.gif" width="650" >
 
-Happy coding! Have fun!👾
+Happy coding & have fun!👾
 
