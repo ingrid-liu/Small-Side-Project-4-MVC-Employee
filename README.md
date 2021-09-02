@@ -1,6 +1,6 @@
 # 👔 Employee Management 👨‍💻‍
 
-This is a simple Spring Boot full stack project with Angular to build front end app, including functionality like add, delete, search(with Ajax and an in-time feedback), and update, etc.
+This is a simple Spring Boot full stack project writen in Java & TS with Angular to build front end app, including functionality like add, delete, search(with Ajax and an in-time feedback), and update, etc.
 
 ![screen shot](https://github.com/summeringrid/Small-Side-Project-4-MVC-Employee/blob/master/screenshots/employeeManagement.png)
 
