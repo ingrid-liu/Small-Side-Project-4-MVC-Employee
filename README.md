@@ -8,6 +8,7 @@ This is a simple Spring Boot full stack project writen in Java & TS with Angular
 
 This project is a perfect practice to dive into full-stack application as a junior developer. 
 It covers:
+- Further understand the MVC mode for a web application.
 - Build your own API along with an Angular application that uses and consumes the API.
 - Use Spring Boot framework and MySQL database to implement Spring Data JPA.
 - Create a spring boot API, expose API Endpoints Over HTTP, and handle HTTP Requests through API Endpoints. 
